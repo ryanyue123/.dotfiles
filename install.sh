@@ -5,8 +5,6 @@ declare -a CONFIGS=(
   "macos"
   "zsh"
   "brew"
-  "iterm2"
-  "sublime"
 )
 
 for config in "${CONFIGS[@]}"
