@@ -4,7 +4,7 @@ sudo -v
 declare -a CONFIGS=(
   "macos"
   "brew"
-  "zsh"
+  # "zsh"
   "VSCode"
 )
 
