@@ -1,6 +1,12 @@
+# Setting $PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-ZSH="$HOME/.oh-my-zsh"
+# Path to the oh-my-zsh installation.
+export ZSH=$HOME/.oh-my-zsh
+export SHELL=/bin/zsh
+
 ZSH_THEME="spaceship"
+ENABLE_CORRECTION="true"
 SPACESHIP_PROMPT_ORDER=(
         time
         user
@@ -18,7 +24,3 @@ plugins=(
   zsh-autosuggestions,
 )
 source $ZSH/oh-my-zsh.sh
-
-source ~/dotfiles/zsh/env.sh
-
-source ~/dotfiles/zsh/alias.sh
