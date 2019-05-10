@@ -6,8 +6,8 @@
   user = ryanyue123
 
 [core]
-  excludesfile = ~/.gitignore_global
+  excludesfile = ~/.gitignore
   editor = vim
-  filemode = false
-  trustctime = false
-    autocrlf = input
+
+[alias]
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative

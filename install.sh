@@ -14,5 +14,4 @@ do
   ./$config/install.sh
 done
 
-DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-ln -sf "$DOTFILES_DIR/.gitconfig" ~
+ln -sf .gitconfig ~/.gitconfig
