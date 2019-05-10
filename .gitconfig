@@ -1,0 +1,13 @@
+[user]
+  name = Ryan Yue
+  email = yue.ryan123@gmail.com
+
+[github]
+  user = ryanyue123
+
+[core]
+  excludesfile = ~/.gitignore_global
+  editor = vim
+  filemode = false
+  trustctime = false
+    autocrlf = input
