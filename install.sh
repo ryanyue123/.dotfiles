@@ -6,6 +6,7 @@ declare -a CONFIGS=(
   "brew"
   # "zsh"
   "VSCode"
+  "Xcode"
 )
 
 for config in "${CONFIGS[@]}"
