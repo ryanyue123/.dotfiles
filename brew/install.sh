@@ -2,8 +2,10 @@
 
 which -s brew
 if [[ $? != 0 ]] ; then
+  e_header "Installing Homebrew"
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
 cd $(dirname $0)
 brew bundle
+

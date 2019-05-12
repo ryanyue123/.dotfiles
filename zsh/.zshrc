@@ -15,7 +15,6 @@ SPACESHIP_TIME_12HR="true"
 SPACESHIP_PROMPT_ADD_NEWLINE="false"
 SPACESHIP_PROMPT_SEPARATE_LINE="false"
 
-COMPLETION_WAITING_DOTS="true"
 
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 

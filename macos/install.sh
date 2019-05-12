@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-sudo -v
-
+e_header "Configure macOS settings"
 # Disable the “Are you sure you want to open this application?” dialog
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 sudo spctl --master-disable
@@ -28,3 +27,13 @@ defaults write com.apple.finder OpenWindowForNewRemovableDisk -bool true
 
 # Disable automatically rearrange spaces based on most recent use
 defaults write com.apple.dock mru-spaces -bool false
+defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock tilesize -int 38
+defaults write com.apple.dock no-bouncing -bool true
+defaults write com.apple.finder _FXSortFoldersFirst -bool true
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
+
+
+e_success "Successfully configured macOS"
