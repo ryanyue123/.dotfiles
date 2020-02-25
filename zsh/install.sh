@@ -1,13 +1,10 @@
-#!/usr/bin/env bash
-e_header "Installing oh-my-zsh"
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-e_header "Copying ZSH themes & plugins..."
-cp .zshrc ~/.zshrc
-cp -r spaceship-prompt ~/.oh-my-zsh/custom/themes/
-cp spaceship.zsh-theme ~/.oh-my-zsh/custom/themes/
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
+cp .zshrc ~/.zshrc
 source ~/.zshrc

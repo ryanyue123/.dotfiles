@@ -1,1 +1,2 @@
-ln -sf Custom.xccolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/Custom.xccolortheme
+mkdir ~/Library/Developer/Xcode/UserData/FontAndColorThemes
+cp Custom.xccolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/Custom.xccolortheme

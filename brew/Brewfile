@@ -1,21 +1,29 @@
+tap "homebrew/cask"
+tap "homebrew/cask-eid"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/bundle"
+
 brew "zsh"
 brew "git"
 brew "yarn"
 brew "python3"
-
-tap "caskroom/versions"
+brew "coreutils"
+brew "grep"
+brew "mackup"
+brew "mas"
 
 cask "iterm2"
 cask "visual-studio-code"
 cask "slack"
 cask "spotify"
-cask "java8"
 cask "alfred"
 cask "flux"
 cask "sketch"
 cask "spectacle"
 cask "brave-browser"
+cask "google-chrome"
 cask "google-backup-and-sync"
-
-tap "caskroom/fonts"
 cask "font-fira-code"
+
+mas 'Spark', id: 1176895641
