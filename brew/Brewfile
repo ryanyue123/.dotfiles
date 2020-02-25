@@ -25,5 +25,6 @@ cask "brave-browser"
 cask "google-chrome"
 cask "google-backup-and-sync"
 cask "font-fira-code"
+cask "github"
 
 mas 'Spark', id: 1176895641
