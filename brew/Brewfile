@@ -27,4 +27,7 @@ cask "google-backup-and-sync"
 cask "font-fira-code"
 cask "github"
 
-mas 'Spark', id: 1176895641
+mas "Spark", id: 1176895641
+mas "Todoist", id: 585829637
+
+
