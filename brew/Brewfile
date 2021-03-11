@@ -22,8 +22,6 @@ cask "flux"
 cask "sketch"
 cask "spectacle"
 cask "brave-browser"
-cask "google-chrome"
-cask "google-backup-and-sync"
 cask "font-fira-code"
 cask "github"
 
