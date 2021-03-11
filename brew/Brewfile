@@ -1,5 +1,4 @@
 tap "homebrew/cask"
-tap "homebrew/cask-eid"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/bundle"
@@ -20,12 +19,10 @@ cask "spotify"
 cask "alfred"
 cask "flux"
 cask "sketch"
-cask "spectacle"
 cask "brave-browser"
 cask "font-fira-code"
 cask "github"
 
 mas "Spark", id: 1176895641
 mas "Todoist", id: 585829637
-
-
+mas "Magnet", id: 441258766
